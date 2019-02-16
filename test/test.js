@@ -5,10 +5,20 @@ const {default: ensureEnd} = require(indexModule)
 
 it("should run for string", () => {
   const result = ensureEnd("cd", "ab")
-  expect(result).toEqual("abcd")
+  expect(result).toEqual("cdab")
 })
 
 it("should run for arrays", () => {
   const result = ensureEnd(["c", "d"], ["a", "b"])
-  expect(result).toEqual(["a", "b", "c", "d"])
+  expect(result).toEqual(["c", "d", "a", "b"])
+})
+
+it("should not falsely run for string", () => {
+  const result = ensureEnd("hello!", ["!"])
+  expect(result).toEqual("hello!")
+})
+
+it("should not falsely run for arrays", () => {
+  const result = ensureEnd(["c", "d"], ["d"])
+  expect(result).toEqual(["c", "d"])
 })

@@ -4,17 +4,18 @@
 Ensures that a string or an array ends with specified value.
 
 ## Installation
-<a href='https://npmjs.com/package/ensure-end'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+<a href='https://npmjs.com/package/ensure-end'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save ensure-end@^
+npm install --save ensure-end@^1.0.6
 ```
-<a href='https://yarnpkg.com/package/ensure-end'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+<a href='https://yarnpkg.com/package/ensure-end'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add ensure-end@^
+yarn add ensure-end@^1.0.6
 ```
 
 
 ## Try it out
+<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
 Open a browser's JavaScript console and execute:
 
 ```javascript
@@ -24,10 +25,10 @@ scriptElement.setAttribute("src","https://unpkg.com/ensure-end@1.0.6");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-The module is now loaded in a variable.
+This module is now loaded in a variable that can be accessed in any scope.
 
 ```javascript
-typeof ensure-end.default
+typeof ensureEnd.default
 ```
 
 

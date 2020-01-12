@@ -36,24 +36,6 @@ yarn add ensure-end@^1.0.6
 ```
 
 
-## Try it out
-
-
-
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type", "text/javascript");
-scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/ensure-end@1.0.6/index.js");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-ensure-end is now stored in the global variable `ensureEnd`. The following console expression should return something other than `"undefined"`.
-
-```javascript
-typeof ensureEnd.default
-```
 
 
 

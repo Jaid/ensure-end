@@ -31,5 +31,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "ensure-end",
-  "description": "Ensures that a string or an array ends with specified value."
+  "description": "Ensures that a string or an array ends with specified value.",
+  "funding": "https://github.com/sponsors/jaid"
 }

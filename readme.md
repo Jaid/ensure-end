@@ -1,9 +1,9 @@
 # ensure-end
 
 
-<a href="https://raw.githubusercontent.com/Jaid/ensure-end/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/ensure-end?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/ensure-end/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fensure-end%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/ensure-end/commits"><img src="https://img.shields.io/github/commits-since/Jaid/ensure-end/v1.0.6?style=flat-square&logo=github" alt="Commits since v1.0.6"/></a> <a href="https://github.com/Jaid/ensure-end/commits"><img src="https://img.shields.io/github/last-commit/Jaid/ensure-end?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/ensure-end/issues"><img src="https://img.shields.io/github/issues/Jaid/ensure-end?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/ensure-end"><img src="https://img.shields.io/npm/v/ensure-end?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/ensure-end/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/ensure-end?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/ensure-end"><img src="https://img.shields.io/npm/dm/ensure-end?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/ensure-end/master/license.txt"><img src="https://img.shields.io/github/license/jaid/ensure-end?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor ensure-end"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/ensure-end/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fensure-end%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/ensure-end/commits"><img src="https://img.shields.io/github/commits-since/jaid/ensure-end/v1.0.6?style=flat-square&logo=github" alt="Commits since v1.0.6"/></a> <a href="https://github.com/jaid/ensure-end/commits"><img src="https://img.shields.io/github/last-commit/jaid/ensure-end?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/ensure-end/issues"><img src="https://img.shields.io/github/issues/jaid/ensure-end?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/ensure-end"><img src="https://img.shields.io/npm/v/ensure-end?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/ensure-end/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/ensure-end?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/ensure-end"><img src="https://img.shields.io/npm/dm/ensure-end?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Ensures that a string or an array ends with specified value.**
 
@@ -41,14 +41,13 @@ yarn add ensure-end@^1.0.6
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/ensure-end.git
+git clone git@github.com:jaid/ensure-end.git
 cd ensure-end
 npm install
 ```
